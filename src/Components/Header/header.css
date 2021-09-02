@@ -2,4 +2,29 @@
     background-color: black;
     color: white;
     height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.ul{
+    align-items: space-around;
+    color: white;
+    font-family: 'Amiri', serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-inline-start: 0px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.li .a{
+    align-items: space-around;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
 }

@@ -6,12 +6,13 @@ import './header.css'
 
 const LinkStyles = styled.ul`
     align-items: space-around;
-    font-family: 'Amiri', serif;
+    font-family: 'Georgia', serif;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     font-size: 20px;
-    padding-inline-start: 0px;
+    padding-inline-start: 0 0 0 0;
+    margin: 0 0 0 0;
     background-color: black;
     
     a{

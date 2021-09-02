@@ -1,6 +1,8 @@
 .Home {
     background-color: white;
     padding: 20px;
+    height: 75vh;
+    font-family: 'Georgia', serif;
 }
 
 .Content{
