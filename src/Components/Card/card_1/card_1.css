@@ -1,24 +1,34 @@
 .Front{
-    height: 175px;
-    width: 145px;
+    height: 250px;
+    width: 200px;
     background-color: white;
     border-radius: 10%;
     border-style: solid;
+    padding: 5px;
+    margin: 5px;
 }
 
 
-
 .Back{
-    height: 175px;
-    width: 145px;
-    background-color: #1da2a2;
+    height: 250px;
+    width: 200px;
+    background-color: white;
     border-radius: 10%;
     border-style: solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 button{
     background-color: #1da2a2;
-    color: white;
     border: none;
-    margin: 5, 5, 5, 5;
+    color: white;
+    font-family: 'Georgia', serif;
+    margin: 20px;
+    padding: 10px;
 }

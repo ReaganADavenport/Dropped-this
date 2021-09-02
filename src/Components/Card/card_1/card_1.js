@@ -20,12 +20,14 @@ class Mandarin extends Component {
         return (
           <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
             <div className="Front">
-              This is the front of the card.
+              <h3>Learn Mandarin:</h3>
+              React front-end and a postgres back-end application to learn Mandarin Chinese
               <button onClick={this.handleClick}>Click Me</button>
             </div>
     
             <div className="Back">
-              This is the back of the card.
+                <a href="https://github.com/ReaganADavenport/learn-mandarin-client"><h4>Front-end Repo</h4></a>
+                <a href="https://github.com/ReaganADavenport/learn-mandarin-api"><h4>Back-end Repo</h4></a>
               <button onClick={this.handleClick}>Click Me</button>
             </div>
           </ReactCardFlip>
