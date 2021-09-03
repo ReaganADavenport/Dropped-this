@@ -21,15 +21,15 @@ class Mandarin extends Component {
           <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
             <div className="Front">
               <h3>Learn Mandarin:</h3>
-              React front-end and a postgres back-end application to learn Mandarin Chinese
-              <button onClick={this.handleClick}>Click Me</button>
+              An application to learn Mandarin Chinese
+              <button onClick={this.handleClick}>Flip Me</button>
             </div>
     
             <div className="Back">
-                <h3>Repositories:</h3>
-                <a href="https://github.com/ReaganADavenport/learn-mandarin-client"><h4>Front-end</h4></a>
-                <a href="https://github.com/ReaganADavenport/learn-mandarin-api"><h4>Back-end</h4></a>
-              <button onClick={this.handleClick}>Click Me</button>
+              <a href="/">
+                <button>Learn More</button>
+              </a>
+              <button onClick={this.handleClick}>Flip Me</button>
             </div>
           </ReactCardFlip>
         )
