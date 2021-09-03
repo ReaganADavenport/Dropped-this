@@ -31,6 +31,7 @@ button{
     border: none;
     color: white;
     font-family: 'Georgia', serif;
+    font-size: 15px;
     margin: 20px;
     padding: 10px;
 }

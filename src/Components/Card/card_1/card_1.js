@@ -26,8 +26,9 @@ class Mandarin extends Component {
             </div>
     
             <div className="Back">
-                <a href="https://github.com/ReaganADavenport/learn-mandarin-client"><h4>Front-end Repo</h4></a>
-                <a href="https://github.com/ReaganADavenport/learn-mandarin-api"><h4>Back-end Repo</h4></a>
+                <h3>Repositories:</h3>
+                <a href="https://github.com/ReaganADavenport/learn-mandarin-client"><h4>Front-end</h4></a>
+                <a href="https://github.com/ReaganADavenport/learn-mandarin-api"><h4>Back-end</h4></a>
               <button onClick={this.handleClick}>Click Me</button>
             </div>
           </ReactCardFlip>
