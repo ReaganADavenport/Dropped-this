@@ -26,9 +26,11 @@ class Mandarin extends Component {
             </div>
     
             <div className="Back">
+
               <a href="/">
                 <button>Learn More</button>
               </a>
+      
               <button onClick={this.handleClick}>Flip Me</button>
             </div>
           </ReactCardFlip>
