@@ -1,8 +1,14 @@
 .Home {
     background-color: white;
-    padding: 20px;
-    height: 75vh;
+    padding: 0;
+    height: 80vh;
     font-family: 'Georgia', serif;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    height: 80vh;
 }
 
 .Content{
@@ -11,16 +17,4 @@
     padding: 30px;
 }
 
-/* .MyWork{
-    
-} */
-
-.Works {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
-    padding: 30px;
-}
 
