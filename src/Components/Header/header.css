@@ -4,6 +4,7 @@
     height: 10vh;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .ul{
@@ -13,7 +14,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 10px;
     padding-inline-start: 0px;
     background-color: black;
     text-decoration: none;

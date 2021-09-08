@@ -10,7 +10,7 @@ const LinkStyles = styled.ul`
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 15px;
     padding-inline-start: 0 0 0 0;
     margin: 0 0 0 0;
     background-color: black;

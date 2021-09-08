@@ -11,9 +11,18 @@ import Bamboo_right from '../../Images/Bamboo_right.png'
 const Home = () => {
     return(
         <div className="Home">
-            <img className="swing_b1" src={Bamboo_left}/>
-            <img className="swing_b2" src={Bamboo_center}/>
-            <img className="swing_b3" src={Bamboo_right}/>
+            <div className="Bamboo_Grove">
+                <img className="swing_b1" src={Bamboo_left}/>
+                <img className="swing_b2" src={Bamboo_center}/>
+                <img className="swing_b3" src={Bamboo_right}/>
+            </div>
+
+            <div className="text">
+                <h2>Hi I'm Reagan!</h2>
+                <h4>I build beautiful websites that work on any device.</h4>
+            </div>
+            
+
         </div>
     )
 }
