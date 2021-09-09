@@ -3,20 +3,20 @@
     padding: 0;
     height: 80vh;
     font-family: 'Georgia', serif;
+    min-width: 100%;
 }
 
 .Bamboo_grove {
     content: ' ';
     display: table;
     clear: both;
-    width: 100%;
-
 }
 
 img{
     padding: 0;
     margin: 0;
     height: 80vh;
+    max-width: 100%;
 }
 
 @-webkit-keyframes swinging{
@@ -47,8 +47,8 @@ img{
 .swing_b2 {
     -webkit-transform-origin: bottom left 10px;
     transform-origin: bottom left 10px;
-    -webkit-animation: swinging 7s ease-in-out forwards infinite;
-    animation: swinging 7s ease-in-out forwards infinite;
+    -webkit-animation: swinging 8s ease-in-out forwards infinite;
+    animation: swinging 8s ease-in-out forwards infinite;
 
     float: left;
     margin-right: -100%;
@@ -59,8 +59,8 @@ img{
 .swing_b3 {
     -webkit-transform-origin: bottom left 10px;
     transform-origin: bottom left 10px;
-    -webkit-animation: swinging 7s ease-in-out forwards infinite;
-    animation: swinging 7s ease-in-out forwards infinite;
+    -webkit-animation: swinging 7.5s ease-in-out forwards infinite;
+    animation: swinging 7.5s ease-in-out forwards infinite;
 
     float: left;
     margin-right: -100%;
@@ -78,3 +78,10 @@ img{
     margin: 100px;
 }
 
+/* @media only screen and (min-width: 800px){
+    .text{
+        float: center;
+        margin-right: -100%;
+        position: relative;
+    }
+} */

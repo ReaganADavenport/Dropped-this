@@ -33,6 +33,7 @@ const Header = () => {
                     <LinkStyles>
                         <Link to='/'><b>Home</b></Link>
                         <Link to='/about'><b>About Me</b></Link>
+                        <Link to='/portfolio'><b>Portfolio</b></Link>
                         <Link to='/contact'><b>Contact</b></Link>
                     </LinkStyles>
                 </div>
