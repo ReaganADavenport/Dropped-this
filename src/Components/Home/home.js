@@ -1,9 +1,8 @@
 import React,{Component} from 'react';
-import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import './home.css';
 
-import Mandarin from '../Card/card_1/card_1'
+
 import Bamboo_left from '../../Images/Bamboo_left.png'
 import Bamboo_center from '../../Images/Bamboo_Center.png'
 import Bamboo_right from '../../Images/Bamboo_right.png'
@@ -20,6 +19,8 @@ const Home = () => {
             <div className="text">
                 <h2>Hi I'm Reagan!</h2>
                 <h4>I build beautiful websites that work on any device.</h4>
+                <h4>Check out some of my work here </h4>
+                <Link to='/portfolio'><h4>>></h4></Link>
             </div>
             
 
