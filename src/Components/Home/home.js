@@ -20,7 +20,8 @@ const Home = () => {
                 <h2>Hi I'm Reagan!</h2>
                 <h4>I build beautiful websites that work on any device.</h4>
                 <h4>Check out some of my work here </h4>
-                <Link to='/portfolio'><h4>>></h4></Link>
+                <Link to='/portfolio'><button className="homeButton">Learn More</button></Link>
+                
             </div>
             
 

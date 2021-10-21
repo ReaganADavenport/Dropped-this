@@ -26,7 +26,7 @@ a{
     color: black;
 }
 
-button{
+.cardButton{
     background-color: #1da2a2;
     border: none;
     border-radius: 5px;

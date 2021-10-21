@@ -22,7 +22,7 @@ class Mandarin extends Component {
             <div className="Front">
               <h3>Learn Mandarin:</h3>
               An application to learn Mandarin Chinese
-              <button onClick={this.handleClick}>Flip Me</button>
+              <button className="cardButton" onClick={this.handleClick}>Flip Me</button>
             </div>
     
             <div className="Back">
@@ -31,7 +31,7 @@ class Mandarin extends Component {
                 <button>Learn More</button>
               </a>
       
-              <button onClick={this.handleClick}>Flip Me</button>
+              <button className="cardButton" onClick={this.handleClick}>Flip Me</button>
             </div>
           </ReactCardFlip>
         )
