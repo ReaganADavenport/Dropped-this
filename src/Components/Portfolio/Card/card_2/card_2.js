@@ -21,7 +21,7 @@ class Drc extends Component {
           <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
             <div className="Front">
               <h3>Diakonia Retreat Center</h3>
-              A beautiful website with ecommerce
+              A beautiful responsive website with ecommerce
               <button className="cardButton" onClick={this.handleClick}>Flip Me</button>
             </div>
     
