@@ -28,7 +28,7 @@ class Drc extends Component {
             <div className="Back">
 
               <a href="/">
-                <button>Learn More</button>
+                <button className="cardButton">Learn More</button>
               </a>
       
               <button className="cardButton" onClick={this.handleClick}>Flip Me</button>
