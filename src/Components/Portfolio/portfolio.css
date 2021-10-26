@@ -1,7 +1,7 @@
 .Portfolio {
     background-color: white;
     padding: 0;
-    height: 80vh;
+    height: 100%;
     font-family: 'Georgia', serif;
     min-width: 100%;
 }
@@ -14,4 +14,11 @@
     justify-content: space-between;
     margin: 30px;
     padding: 20px;
+}
+
+
+@media only screen and (min-width: 992px){
+    .Portfolio {
+        height: 80vh;
+    }
 }

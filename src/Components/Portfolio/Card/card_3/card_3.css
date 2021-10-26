@@ -1,6 +1,6 @@
 .Front{
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
     background-color: white;
     border-radius: 10px;
     /* border-style: solid; */
@@ -11,8 +11,8 @@
 
 
 .Back{
-    height: 250px;
-    width: 200px;
+    height: 200px;
+    width: 150px;
     background-color: white;
     border-radius: 10px;
     /* border-style: solid; */
@@ -35,4 +35,16 @@ a{
     font-size: 15px;
     margin: 20px;
     padding: 10px;
+}
+
+@media only screen and (min-width: 992px){
+    .Front{
+        height: 250px;
+        width: 200px;
+    }
+
+    .Back{
+        height: 250px;
+        width: 200px;
+    }
 }

@@ -3,7 +3,7 @@
     width: 150px;
     background-color: white;
     border-radius: 10px;
-    /* border-style: solid; */
+    font-size: 15px;
     padding: 5px;
     margin: 5px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
@@ -36,6 +36,7 @@ a{
     margin: 20px;
     padding: 10px;
 }
+
 
 @media only screen and (min-width: 992px){
     .Front{
