@@ -1,0 +1,7 @@
+.Body {
+    background-color: white;
+    padding: 0;
+    height: 80vh;
+    font-family: 'Georgia', serif;
+    min-width: 100%;
+}
